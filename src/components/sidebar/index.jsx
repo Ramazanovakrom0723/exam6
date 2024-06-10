@@ -1,17 +1,11 @@
 import React from 'react'
-import { NavLink} from 'react-router-dom'
-// import { List, Product } from '../../pages'
-const Sidebar = () => {
+
+const Index = () => {
   return (
-  <div>
-    <NavLink to="/">
-      List
-    </NavLink>
-    <NavLink to="product">
-      Buyurtmalar
-    </NavLink>
+    <div>
+      
     </div>
   )
 }
 
-export default Sidebar
+export default Index

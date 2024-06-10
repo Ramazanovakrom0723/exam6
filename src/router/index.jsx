@@ -4,7 +4,7 @@ import {
     createBrowserRouter,
     createRoutesFromElements,
 }from "react-router-dom";
-import { List, Product} from "../pages";
+import { List, Product, ProductDetails} from "../pages";
 import App from"../App.jsx"
 // import { Header } from "../components";
 // import { Sidebar } from "../components";
@@ -16,6 +16,7 @@ const Index = () => {
             <Route path="/" element={<App/>}>
             <Route index element={<List/>}/>
             <Route path="/product" element={<Product/>} />
+            <Route path="/product/:id" element={<ProductDetails />} />
             </Route>
         )
     )
